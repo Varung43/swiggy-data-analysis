@@ -54,7 +54,7 @@ Some of the business questions answered:
 
 ### 🖼️ Screenshots
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/dashboard.png.jpg)
 
 ---
 
