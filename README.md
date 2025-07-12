@@ -67,9 +67,11 @@ Swiggy-PowerBI-Analysis/
 │ └── Swiggy_Analysis.pbix
 ├── Images/
 │ └── dashboard1.png
-│ └── dashboard2.png
 └── README.md
 
+## ✅ Conclusion
+
+This Power BI dashboard provides a holistic view of Swiggy's operations and customer behavior, helping stakeholders make informed business decisions. It highlights growth opportunities, restaurant performance, and key user trends.
 
 ![Swiggy Dashboard](Swiggy_data_analysis.jpg)
 
