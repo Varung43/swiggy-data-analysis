@@ -1,39 +1,74 @@
-🍽️ Swiggy Restaurant Data Analysis (Power BI)
+# 🍽️ Swiggy Data Analysis using Power BI
 
-This dashboard provides a detailed analysis of Swiggy's restaurant dataset, focusing on key metrics such as ratings, price, delivery time, cuisine types, and location insights.
+## 📊 Project Overview
 
-📊 Key Insights
-- **Average Rating:** 3.66 | **Avg Price per Meal:** ₹348 | **Avg Delivery Time:** ~54 mins
-- Top 5 food types: Indian, Chinese, North Indian, Fast Food, South Indian
-- Most expensive areas include Vile Parle, Pacific Mall, and Brigade Road
-- Top cities and areas with the most restaurants: Kolkata, Mumbai, Rohini, Andheri, etc.
+This project involves analyzing Swiggy food delivery data using **Power BI** to uncover key business insights. The goal is to explore customer behavior, restaurant performance, delivery trends, and order patterns to support data-driven decision-making.
 
-🛠️ Tools Used
-- Power BI for data modeling and dashboard creation
-- Excel for initial data cleaning
+---
 
-📸 Dashboard Preview
-🧠 Project Reflection
+## 🔍 Objectives
 
-🔍 Problem Statement
-Swiggy wanted insights into its restaurant ecosystem — including food preferences, delivery patterns, pricing, and ratings — to make better business decisions across cities and neighborhoods.
+- Analyze Swiggy's historical data to understand order distribution and customer trends.
+- Identify high-performing restaurants and popular cuisines.
+- Examine order delivery patterns across cities and time.
+- Create interactive and insightful Power BI dashboards.
 
-⚙️ Challenges Faced
-- The dataset had missing values in critical fields like ratings, price, and delivery time.
-- Cuisines were repeated under different names (e.g., “North Indian” vs. “Indian”).
-- Some restaurant names and locations were duplicated or inconsistent.
-- Too many visuals made the dashboard crowded at first.
+---
 
-✅ How I Solved It
-- Cleaned and standardized the dataset using Excel (handled nulls, grouped cuisines, fixed duplicates).
-- Used slicers and filters in Power BI for clear exploration.
-- Focused visuals on key metrics like rating, price, delivery time, and top food types.
+## 🧾 Dataset
 
-🌟 Final Outcome / Impact
-- Created an interactive dashboard showing:
-  - ⭐ Avg rating: 3.66 | 💰 Avg price: ₹348 | 🕐 Avg delivery: 54 mins
-  - Top food types and expensive areas like Vile Parle, Brigade Road
-- Helped Swiggy visualize delivery insights and pricing trends city-wise.
+- **Source:** YouTube (Educational Purpose)  
+- **Channel:** [https://youtu.be/u8UBu78dWug?si=FqGCsymQ0QfymxdQ]  
+- **Description:** The dataset includes customer orders, restaurant details, delivery info, ratings, and pricing.
+
+**Sample Columns:**
+- `Order_ID`
+- `Customer_City`
+- `Restaurant_Name`
+- `Cuisine_Type`
+- `Order_Date`
+- `Delivery_Time`
+- `Cost_of_Order`
+- `Rating`
+
+---
+
+## 📈 Tools & Technologies
+
+- **Power BI** – for data visualization and dashboard development
+---
+
+## 🧠 Key Insights
+
+Some of the business questions answered:
+
+- 🔝 Which are the top-performing restaurants?
+- 🏙️ Which cities generate the most orders?
+- ⏰ What are the peak order times?
+- 💸 What is the average order value?
+- 🌮 Which cuisine is most popular?
+
+---
+
+## 📊 Dashboard Overview
+
+### 🖼️ Screenshots
+
+![Dashboard](images/dashboard.png)
+
+---
+
+## 📂 Project Structure
+
+Swiggy-PowerBI-Analysis/
+├── Dataset/
+│ └── swiggy_data.csv
+├── PowerBI/
+│ └── Swiggy_Analysis.pbix
+├── Images/
+│ └── dashboard1.png
+│ └── dashboard2.png
+└── README.md
 
 
 ![Swiggy Dashboard](Swiggy_data_analysis.jpg)
