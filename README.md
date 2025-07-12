@@ -52,12 +52,6 @@ Some of the business questions answered:
 
 ## 📊 Dashboard Overview
 
-### 🖼️ Screenshots
-
-![Dashboard](images/dashboard.png.jpg)
-
----
-
 ## 📂 Project Structure
 
 Swiggy-PowerBI-Analysis/
